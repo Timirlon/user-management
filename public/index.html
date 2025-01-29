@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Assignment III</h1>
+
+    <!-- Form to Add User -->
+    <form id="user-form">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="number" id="age" placeholder="Age" required />
+      <button type="submit">Add User</button>
+    </form>
+
+    <h2>User List</h2>
+    <!-- Search Bar -->
+    <input type="text" id="search" placeholder="Search users by name" />
+
+    <!-- Sort Button -->
+    <button id="sort-button">Sort by Name (A-Z)</button>
+
+    <!-- User Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="user-table"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
