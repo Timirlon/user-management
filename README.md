@@ -28,6 +28,6 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Timirlon/user-management
    cd <project_folder>
 
